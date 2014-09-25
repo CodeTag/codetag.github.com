@@ -7,4 +7,6 @@ gem "thin"
 
 gem "jekyll"
 gem "jekyll-assets"
-
+gem 'rack-jekyll'
+gem 'RedCloth'
+gem 'thin'

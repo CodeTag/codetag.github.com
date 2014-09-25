@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    RedCloth (4.2.9)
     blankslate (2.1.2.4)
     celluloid (0.16.0)
       timers (~> 4.0.0)
@@ -62,6 +63,9 @@ GEM
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
     rack (1.5.2)
+    rack-jekyll (0.3.5)
+      jekyll
+      rack
     rack-protection (1.5.3)
       rack
     rb-fsevent (0.9.4)
@@ -99,7 +103,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  RedCloth
   jekyll
   jekyll-assets
+  rack-jekyll
   sinatra
   thin
