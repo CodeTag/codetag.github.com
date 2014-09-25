@@ -1,3 +1,4 @@
+exclude:  [ Gemfile, Gemfile.lock, Procfile, vendor, gems]
 url: https://y7kim.github.io
 baseurl:
 
